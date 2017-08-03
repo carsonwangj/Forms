@@ -13,5 +13,10 @@ namespace Forms
         {
             InitializeComponent();
         }
+
+        private async void NavigateButtonOnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new formpage());
+        }
     }
 }

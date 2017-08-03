@@ -13,7 +13,7 @@ namespace Forms
         {
             InitializeComponent();
 
-            MainPage = new Forms.MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
